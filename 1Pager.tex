@@ -63,7 +63,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-3pt}}
   }
 }
 
@@ -98,7 +98,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -119,32 +119,44 @@
 \section{Profile}
 \resumeItemListStart
 \resumeItem{Passionate Full-Stack Polyglot Staff Engineer who enjoys solving complex real-world problems to deliver high-quality, customer-centric applications.}
-\resumeItem{Skilled in architecting and implementing state-managed frontend applications that effectively visualize complex data.}
+\resumeItem{Skilled in architecting and implementing lightweight, state-managed frontend applications that effectively visualize complex data.}
 \resumeItem{Proficient in designing secure, performant, scalable backend microservices for optimal performance and cost-efficiency.}
 \resumeItem{Hands-on engineer who leads lean, efficient, and autonomous teams while ensuring strong alignment and commitment to achieving exceptional results.}
-\resumeItem{Agile, self-motivated, and adept at rapidly learning new development languages, platforms, frameworks, and tools.}
+\resumeItem{Agile, self-motivated, and adept at rapidly learning and adopting new development languages, platforms, frameworks, tools and methodologies.}
 \resumeItemListEnd
 
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
-\resumeSubheading {Staff Software Engineer}{April 2022 -- Present}
-{Soroco}{Bangalore, India}
-% \resumeSubSubheading {Senior Software Engineer}{ Feb 2020 - March 2022}
+
+\resumeSubheading {Staff Software Engineer}{April 2022 -- Present}{Soroco}{Bangalore, India}
 \resumeItemListStart
-\resumeItem{Scaled Scout web application to \textbf{22 developers}, converting it to a modular \textbf{Angular 18} application with \textbf{50+ standardized components}.}
-\resumeItem{Led effort to \textbf{standardize architecture, best practices and development practices} across product teams, \textbf{improving velocity by 40\%} with \textbf{0 missed deliveries in over 2 years}}
-\resumeItem{Unit, Integration and E2E test coverage of >80\% and zero P0/P1 production issues in over a year. }
-\resumeItem{Led development of \textbf{Standardized Component Library}, improving feature delivery time by 40\%}
-\resumeItem{Improved \textbf{Unit test} coverage to \textgreater80\%, introduced and drove Cypress based \textbf{Integration and E2E tests with \textgreater70\% coverage}, leading to \textbf{zero P0/P1 production issues} in the past 14 months.}
-\resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+\resumeItem{Architect for Scout web application, currently a modular \textbf{Angular 18} application with \textbf{20+ modules}, supported by a \textbf{50+ standardized component} and \textbf{RBAC} libraries and \textbf{Custom Linting} rules.}
+\resumeItem{Led effort to \textbf{standardize architecture, best practices and development practices} for \textbf{22 developers across 5 teams}, \textbf{improving velocity by 40\%} with \textbf{0 missed deliveries} in 2+ years}
+\resumeItem{Envisioned and led multiple org-wide initiatives to improve Frontend/Backend coordination,  }
 \resumeItemListEnd
+\textbf{Tech Stack}: Angular 18, React/NextJs, Python+Django, Postgres, MongoDB, Azure (VMs, Functions, Vault, DevOps, Pipelines), Docker
+
 \resumeSubheading{Senior Software Engineer}{Feb 2020 - March 2022}{Soroco}{Bangalore, India}
-
-
+\resumeItemListStart
+\resumeItem{Designed and Developed Automations Systems for Amazon to analyze \textbf{1.5 million weekly and monthly payrolls} for discrepancies, replacing a multi-day manual task with automation that takes \textbf{less than 2 hours}.}
+\resumeItem{Supported 4 other teams in updating existing and in-development products to comply with rapidly changing \textbf{compliance and security requirements}.}
+\resumeItemListEnd
+\textbf{Tech Stack}: Angular 9, Python+Django, AWS (CodeDeploy, EC2, IAM, Apollo, Redshift, RDS)
 
 \resumeSubHeadingListEnd
 
+%
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
+        \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+        \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+        \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+        }}
+\end{itemize}
 
 
 %-----------EDUCATION-----------
@@ -159,40 +171,29 @@
 \resumeSubHeadingListEnd
 
 
-%-----------PROJECTS-----------
-\section{Projects}
-\resumeSubHeadingListStart
-\resumeProjectHeading
-{\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
-\resumeItemListStart
-\resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-\resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-\resumeItem{Visualized GitHub data to show collaboration}
-\resumeItem{Used Celery and Redis for asynchronous tasks}
-\resumeItemListEnd
-\resumeProjectHeading
-{\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
-\resumeItemListStart
-\resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-\resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-\resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-\resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
-\resumeItemListEnd
-\resumeSubHeadingListEnd
+% %-----------PROJECTS-----------
+% \section{Projects}
+% \resumeSubHeadingListStart
+% \resumeProjectHeading
+% {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+% \resumeItemListStart
+% \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+% \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+% \resumeItem{Visualized GitHub data to show collaboration}
+% \resumeItem{Used Celery and Redis for asynchronous tasks}
+% \resumeItemListEnd
+% \resumeProjectHeading
+% {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+% \resumeItemListStart
+% \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+% \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+% \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+% \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
 
 
 
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
-\begin{itemize}[leftmargin=0.15in, label={}]
-  \small{\item{
-        \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-        \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-        \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-        \textbf{Libraries}{: pandas, NumPy, Matplotlib}
-        }}
-\end{itemize}
 
 
 %-------------------------------------------
