@@ -1,0 +1,185 @@
+%-------------------------
+% Resume in Latex
+% Author : Yash Capoor
+% Based off of: https://github.com/sb2nov/resume and https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+\usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+
+\newcommand{\resumeSubItem}[1]{\hspace*{10pt}\resumeItem{#1}\vspace{-2pt}}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  \textbf{\Huge \scshape Yash Capoor} \\ \vspace{1pt}
+  \href{tel:+919811203444}{\small +91 98112 03444} $|$ \href{mailto:yash.capoor@gmail.com}{\underline{yash.capoor@gmail.com}} $|$
+  \href{https://www.linkedin.com/in/yashcapoor}{\underline{linkedin.com/in/yashcapoor}}$|$
+  \href{https://github.com/capyash}{\underline{github.com/in/capyash}}
+\end{center}
+
+%-----------PROFILE--------------
+\section{Profile}
+\resumeItemListStart
+\resumeItem{Staff Engineer with deep expertise in architecting scalable full-stack applications, ML/AI systems, and leading cross-functional engineering teams to deliver high-impact solutions.}
+\resumeItem{Proven track record of defining architecture standards and aligning multi-team delivery for 80+ engineers, driving \textbf{40\% velocity improvement, 60\% rework reduction, and 0 missed deliveries} over 2+ years.}
+\resumeItemListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading{Senior Software Architect}{December 2025 -- Present}{Teleperformance}{Bangalore, India}
+\resumeItemListStart
+\resumeItem{Leading development of \textbf{AI-native applications} within the AI Engineering team, building on top of existing AI tools and architecting \textbf{custom agentic AI systems}.}
+\resumeItemListEnd
+
+\resumeSubheading{Career Break --- Family Caregiving}{February 2025 -- December 2025}{}{}
+
+\resumeSubheading {Staff Software Engineer}{April 2022 -- January 2025}{Soroco}{Bangalore, India}
+\resumeItemListStart
+\resumeItem{Architected NLP text-to-SQL system using \textbf{RoBERTa-Large} and \textbf{schema-tuned Llama 70B}, achieving \textbf{80\%+ query accuracy} with \textbf{$<$200ms SQL generation latency}, enabling non-technical users to query complex datasets via natural language.}
+\resumeItem{Designed and implemented \textbf{privacy-preserving data obfuscation algorithm} using \textbf{l-diversity} with custom \textbf{Python/Pandas pipelines} and dynamic batching, converting \textbf{30GB+ production datasets} into statistically-valid training data for dozens of ML models.}
+\resumeItem{Developed \textbf{user action similarity detection system} using \textbf{vector embeddings} and cosine similarity to identify ongoing user workflows in real-time, enabling contextual assistance and automation.}
+\resumeItem{Architected Scout modular \textbf{Angular 18} application with \textbf{20+ modules, 50+ standardized components, RBAC libraries, and custom linting} rules.}
+\resumeItem{Established \textbf{architecture and development standards} for \textbf{22 developers across 5 teams} and led org-wide coordination initiatives impacting \textbf{80+ engineers}, achieving \textbf{40\% velocity improvement, 60\% rework reduction, and 0 missed deliveries} over 2+ years.}
+\resumeItemListEnd
+\textbf{Tech Stack}: Angular 18, React/NextJs, Python+Django, PyTorch, Scikit-learn, Pandas, Postgres, MongoDB, Azure (VMs, Functions, Vault, DevOps, Pipelines), Docker
+
+\resumeSubheading{Senior Software Engineer}{February 2020 -- March 2022}{Soroco}{Bangalore, India}
+\resumeItemListStart
+\resumeItem{Built automation system for Amazon analyzing \textbf{1.5M weekly/monthly payrolls} for discrepancies, reducing multi-day manual process to \textbf{under 2 hours}.}
+\resumeItem{Led compliance and security updates across 4 teams to meet \textbf{Amazon's payroll data handling and privacy policies}, ensuring uninterrupted production operations across rapidly evolving regulatory requirements.}
+\resumeItemListEnd
+\textbf{Tech Stack}: Angular 9, Python+Django, AWS (EC2, CodeDeploy, IAM, Redshift, RDS)
+
+\resumeSubheading{Associate Technical Architect}{March 2018 -- February 2020}{North Shore Technologies}{Noida, India}
+\resumeItemListStart
+\resumeItem{Led 10-member cross-functional team to design and develop \textbf{.NET MVC 5 EMR} for 20/20 Vision Center and GVS, a telehealth franchise with \textbf{500+ locations across 38 US States}, replacing legacy solution.}
+\resumeItem{Accelerated \textbf{10-month data migration project to 2 months} for Mitel Networks by leading 6-person analytics team to build \textbf{Python/Pandas automation} that cleaned and organized \textbf{900,000+ customer records}, automating \textbf{80\% of manual effort}.}
+\resumeItemListEnd
+\textbf{Tech Stack}: .NET Core 2.2, .NET MVC 5, Angular 7, Python+Pandas
+
+\resumeSubHeadingListEnd
+
+%
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Languages}{: Python, TypeScript/JavaScript, SQL, C\#, HTML/CSS, LaTeX} \\
+        \textbf{ML/AI}{: PyTorch, Scikit-learn, Transformers/HuggingFace, LLMs (Llama, RoBERTa), NLP, LangChain, NumPy, SciPy} \\
+        \textbf{Frameworks/Libraries}{: Angular, React/NextJS, Pandas, Django, Node.js, Flask, .NET Core} \\
+        \textbf{Databases/Data}{: Postgres, MongoDB, MySQL, MSSQL, Redshift} \\
+        \textbf{Developer Tools}{: Git, Docker, K8s, Azure, AWS, GCP}
+        }}
+\end{itemize}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Amity University}{Noida, UP, India}
+{Bachelor of Science in Information Technology}{May 2013}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
