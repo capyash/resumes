@@ -35,3 +35,7 @@ Defined in the preamble of each file (identical across variants):
 - `\resumeProjectHeading{title}{date}` — for projects or non-standard entries (e.g., career break)
 - `\resumeSubHeadingListStart/End` — wraps experience entries
 - `\resumeItemListStart/End` — wraps bullet lists under a heading
+
+## Notes
+
+- Do not modify the PDFs. Only edit the `.tex` files and let VSCode Latex Workshop handle compilation.
