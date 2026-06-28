@@ -28,13 +28,13 @@ Alternatively, compile on Overleaf by uploading the `.tex` file directly.
 
 Defined in the preamble of each file (identical across variants):
 
-- `\resumeItem{text}` — a single bullet point
-- `\resumeSubItem{text}` — indented sub-bullet
-- `\resumeSubheading{title}{date}{company}{location}` — job heading with 4 fields
-- `\resumeSubSubheading{title}{date}` — secondary role under same company
-- `\resumeProjectHeading{title}{date}` — for projects or non-standard entries (e.g., career break)
-- `\resumeSubHeadingListStart/End` — wraps experience entries
-- `\resumeItemListStart/End` — wraps bullet lists under a heading
+- `\resumeItem{text}` - a single bullet point
+- `\resumeSubItem{text}` - indented sub-bullet
+- `\resumeSubheading{title}{date}{company}{location}` - job heading with 4 fields
+- `\resumeSubSubheading{title}{date}` - secondary role under same company
+- `\resumeProjectHeading{title}{date}` - for projects or non-standard entries (e.g., career break)
+- `\resumeSubHeadingListStart/End` - wraps experience entries
+- `\resumeItemListStart/End` - wraps bullet lists under a heading
 
 ## Notes
 

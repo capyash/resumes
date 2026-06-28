@@ -1,4 +1,4 @@
-# Yash Capoor — Resume
+# Yash Capoor - Resume
 
 LaTeX resume built on [Jake's Resume](https://github.com/sb2nov/resume) template. Maintains multiple tailored variants for different application contexts.
 
@@ -6,8 +6,8 @@ LaTeX resume built on [Jake's Resume](https://github.com/sb2nov/resume) template
 
 | File | Target |
 |------|--------|
-| `default_1Pager.tex` | General-purpose one-page resume — full-stack, ML/AI, and engineering leadership |
-| `applied-ai-1pager.tex` | AI/ML-focused variant — emphasizes agentic AI, RAG, NLP, and applied ML experience |
+| `default_1Pager.tex` | General-purpose one-page resume - full-stack, ML/AI, and engineering leadership |
+| `applied-ai-1pager.tex` | AI/ML-focused variant - emphasizes agentic AI, RAG, NLP, and applied ML experience |
 
 ## Building
 
@@ -18,7 +18,7 @@ pdflatex default_1Pager.tex
 pdflatex applied-ai-1pager.tex
 ```
 
-Or use [Overleaf](https://www.overleaf.com) — upload the `.tex` file and compile directly.
+Or use [Overleaf](https://www.overleaf.com) - upload the `.tex` file and compile directly.
 
 ## Customization
 
